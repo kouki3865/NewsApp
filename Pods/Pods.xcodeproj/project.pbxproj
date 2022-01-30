@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DCD1DCCFFBDF87DC0C91A756AF0779 /* Pods-NewsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D33812B0F283BE0FF9B36290FE29871 /* Pods-NewsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11831E0FD1E67D212F10A2BA1E88624C /* INNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BAC35060A90D5D61F2D3698D13716 /* INNotifications.swift */; };
+		16A312CFA0F7C5781F288074BC7572EE /* SegementSlideDefaultSwitcherView+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B474C151A8E4E19158DE59E3C60188A /* SegementSlideDefaultSwitcherView+ex.swift */; };
+		174D50340C4AEAB1316276DA82E9E5E2 /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460738652F074EA4822EDB27C9B9A5C /* UIView+Constraint.swift */; };
+		192912BF03EA06AAC7338A97CEFD8EDB /* TransparentSlideDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E6D6576187ADF9C5CA5E5F987C0F6 /* TransparentSlideDefaultViewController.swift */; };
+		207F8418C28DE332B2720D1E6CFDAB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		295209442A59E28CAD9C23B612FA14F7 /* String+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1318B47B645DE61908E561630A40ED2D /* String+UIImage.swift */; };
+		2E84A7CC22F109BD1B8D3BD2093CA7AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30784C09385FFF8A3F34F539B9F813A8 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E64DC6CE73F1172370C13D360D4734 /* BadgeView.swift */; };
+		338F2FE8B448A8396073D70850529D0E /* UIScrollView+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B567E9283755DC518622E3E78BB7C /* UIScrollView+Scroll.swift */; };
+		386A7439D361CE2B8338A4E0EEE1EB88 /* INNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E969131557A2F74026EF298F787296 /* INNotificationData.swift */; };
+		3B6262A9295A37E494521C27A81CADCC /* SegementSlideSwitcherDataSourceWeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A317FEF0E7ADA968A0F84EEDBAC95743 /* SegementSlideSwitcherDataSourceWeakBox.swift */; };
+		413BB8AF63A692EC4146ADE4E0CFC3A7 /* INNotificationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9CFE35E4B4F4DF0776C054E7D51514 /* INNotificationStyle.swift */; };
+		4DBD6C0990CCEBAFAB066A5B9F74D201 /* SegementSlideDefaultSwitcherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BE18AB34FB23828CE8CB802D733E64 /* SegementSlideDefaultSwitcherConfig.swift */; };
+		4E47849E5F46CB2C6A5CC99CA50A82D0 /* SegementSlide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 833F95FB61F18A67EF353D1244F9A6E0 /* SegementSlide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613CC8B06947B76566ECBB786E2A75DA /* SegementSlideDefaultSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581AB65899ADC126F9C84DB7868166 /* SegementSlideDefaultSwitcherView.swift */; };
+		71B06FB9E6073CE8BE1DAC6B11A74357 /* SegementSlideDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00194E85AED0673F9D28A10575985190 /* SegementSlideDefaultViewController.swift */; };
+		724FD2BD4FF5CCD358DF66D937386ADC /* String+Bounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBEC459248F02E2DEEF8A84A2880F9 /* String+Bounding.swift */; };
+		80EAC8AABE94270626D14A903469CC01 /* SegementSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C28A57A5B73F3697B0FD7754252978 /* SegementSlideViewController.swift */; };
+		8653EBBE88EA86864BA0465F65A889A7 /* SegementSlideHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A907F2160301A438A39E470FADE39 /* SegementSlideHeaderView.swift */; };
+		877E4E0A48187007CD8B97975513B902 /* Pods-NewsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7B798C80FF3F442D4F796642548AD1 /* Pods-NewsApp-dummy.m */; };
+		95125474FB3157AE0D27AE468B28A156 /* SegementSlideViewController+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A2E5F92A0DF512D3A4969F75033F1 /* SegementSlideViewController+ex.swift */; };
+		955F079DDC654BB90F0A534393782A76 /* TransparentSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28519CAF6566E9083AA4CEF88CB99D /* TransparentSlideViewController.swift */; };
+		987D66389A8ABCD7F9E999734465CC0A /* SegementSlideScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68AEFB1128AB25F0A3C9720E066F8C /* SegementSlideScrollView.swift */; };
+		9C8BB72842C1C39238666CDE01EBE2CC /* INNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE558D73F196DD3804A44C9AB58B6B49 /* INNotification.swift */; };
+		9F0ED2B9B775A07FB7E162717EAD43EA /* SegementSlideSwitcherDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F66859D402E69B9D1BE9C8F1119A8 /* SegementSlideSwitcherDelegate.swift */; };
+		B245B516954F39229872482D4C7D8531 /* SegementSlideViewController+setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F4BC517E747C245EE377D5E78A46F /* SegementSlideViewController+setup.swift */; };
+		B3304FDE784D90E38A8C5E6D2DD732F4 /* ImpressiveNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A2ECBE7F5E16599BC382DE005BE3B /* ImpressiveNotifications-dummy.m */; };
+		D32DBB1612B2BE316710AAB1279A3F78 /* ImpressiveNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF03A2102ECB63BF170D229761502727 /* ImpressiveNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA002208E496B765730EBA60032B8D4 /* SegementSlideViewController+scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BD17422ECD95175CBC10C2481BFE03 /* SegementSlideViewController+scroll.swift */; };
+		E580FEC0AF5869D263EEAED832004AB4 /* SegementSlideViewController+delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B671CD9F1CFD9AD8998F7248E904CC /* SegementSlideViewController+delegate.swift */; };
+		EFA808AA5CFCB195DEF0B2A0EC82BC74 /* SegementSlideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8B8CF1B0339A91B8C7A67CB7E0D57 /* SegementSlideContentView.swift */; };
+		F18E4023DC09162EBBF943C81863B4E2 /* SegementSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F27F006A1FF99D289F2A4A312A2D3CB1 /* SegementSlide-dummy.m */; };
+		FADA1EBBB35446B7FC09DB5F199A0390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCFB46F7A762C450D7D1CB0954E559A3 /* INNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F552D81B15B2424C9C2380A8C42280C /* INNotificationType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F859F746ACC15CDB65401D15AD3049D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E625008C8D4FCD12508D6C75D020655D;
+			remoteInfo = ImpressiveNotifications;
+		};
+		B1189EF58F1DEF9374020D3CA44CF1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 055411E7F4239B4CB7D549A671F771E0;
+			remoteInfo = SegementSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00194E85AED0673F9D28A10575985190 /* SegementSlideDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideDefaultViewController.swift; path = Source/General/SegementSlideDefaultViewController.swift; sourceTree = "<group>"; };
+		0204678699D9E23909197E1B0404CB92 /* SegementSlide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegementSlide.release.xcconfig; sourceTree = "<group>"; };
+		04EA877327FEBA95BDF556DCAAAC671D /* Pods-NewsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D33812B0F283BE0FF9B36290FE29871 /* Pods-NewsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsApp-umbrella.h"; sourceTree = "<group>"; };
+		1318B47B645DE61908E561630A40ED2D /* String+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UIImage.swift"; path = "ImpressiveNotifications/Sources/Extensions/String+UIImage.swift"; sourceTree = "<group>"; };
+		1460738652F074EA4822EDB27C9B9A5C /* UIView+Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Constraint.swift"; path = "Source/Utility/UIView+Constraint.swift"; sourceTree = "<group>"; };
+		1F28519CAF6566E9083AA4CEF88CB99D /* TransparentSlideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransparentSlideViewController.swift; path = Source/General/TransparentSlideViewController.swift; sourceTree = "<group>"; };
+		242AA5857F02B7E6FBEB6140CB8A2476 /* ImpressiveNotifications */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImpressiveNotifications; path = ImpressiveNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296BAC35060A90D5D61F2D3698D13716 /* INNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INNotifications.swift; path = ImpressiveNotifications/Sources/INNotifications.swift; sourceTree = "<group>"; };
+		35309B9BAF9702F55FA78A02B563EFEE /* SegementSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegementSlide-prefix.pch"; sourceTree = "<group>"; };
+		365F4BC517E747C245EE377D5E78A46F /* SegementSlideViewController+setup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+setup.swift"; path = "Source/General/SegementSlideViewController+setup.swift"; sourceTree = "<group>"; };
+		3733FD3D38C5579187385A7B37DC8060 /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		39E3E5F872763E10C58E7DEF2B8ED837 /* Pods-NewsApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewsApp"; path = Pods_NewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2B567E9283755DC518622E3E78BB7C /* UIScrollView+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Scroll.swift"; path = "Source/Utility/UIScrollView+Scroll.swift"; sourceTree = "<group>"; };
+		42680C948568347510E3E5881F7FDB51 /* SegementSlide */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegementSlide; path = SegementSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BD17422ECD95175CBC10C2481BFE03 /* SegementSlideViewController+scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+scroll.swift"; path = "Source/General/SegementSlideViewController+scroll.swift"; sourceTree = "<group>"; };
+		451C059032DBCF2E87DB4558CBF850B9 /* ImpressiveNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpressiveNotifications-prefix.pch"; sourceTree = "<group>"; };
+		5232D1D484E3BEA07A2743C4B8D23FEE /* Pods-NewsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsApp-frameworks.sh"; sourceTree = "<group>"; };
+		5F552D81B15B2424C9C2380A8C42280C /* INNotificationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INNotificationType.swift; path = ImpressiveNotifications/Sources/INNotificationType.swift; sourceTree = "<group>"; };
+		604A75D98A0DE48F98C49604DEC29C5A /* Pods-NewsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsApp-Info.plist"; sourceTree = "<group>"; };
+		60B5757E36D98F4DF711E244DFC891A0 /* ImpressiveNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImpressiveNotifications.modulemap; sourceTree = "<group>"; };
+		685A2ECBE7F5E16599BC382DE005BE3B /* ImpressiveNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImpressiveNotifications-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B474C151A8E4E19158DE59E3C60188A /* SegementSlideDefaultSwitcherView+ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideDefaultSwitcherView+ex.swift"; path = "Source/Switcher/SegementSlideDefaultSwitcherView+ex.swift"; sourceTree = "<group>"; };
+		7D9CFE35E4B4F4DF0776C054E7D51514 /* INNotificationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INNotificationStyle.swift; path = ImpressiveNotifications/Sources/Data/INNotificationStyle.swift; sourceTree = "<group>"; };
+		7E4A2E5F92A0DF512D3A4969F75033F1 /* SegementSlideViewController+ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+ex.swift"; path = "Source/General/SegementSlideViewController+ex.swift"; sourceTree = "<group>"; };
+		833F95FB61F18A67EF353D1244F9A6E0 /* SegementSlide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegementSlide-umbrella.h"; sourceTree = "<group>"; };
+		8A4F71CBE817EB9BDC070E525D561733 /* Pods-NewsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsApp.modulemap"; sourceTree = "<group>"; };
+		8D4A907F2160301A438A39E470FADE39 /* SegementSlideHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideHeaderView.swift; path = Source/Header/SegementSlideHeaderView.swift; sourceTree = "<group>"; };
+		8EA00A7030281D776C8FDA9402F18A85 /* ImpressiveNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImpressiveNotifications.release.xcconfig; sourceTree = "<group>"; };
+		9861FCDD0906646822099967C5B9B2A2 /* Pods-NewsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		99F5AA93D77721B3A2B92337F97996BA /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6F66859D402E69B9D1BE9C8F1119A8 /* SegementSlideSwitcherDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideSwitcherDelegate.swift; path = Source/Switcher/SegementSlideSwitcherDelegate.swift; sourceTree = "<group>"; };
+		A317FEF0E7ADA968A0F84EEDBAC95743 /* SegementSlideSwitcherDataSourceWeakBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideSwitcherDataSourceWeakBox.swift; path = Source/Switcher/SegementSlideSwitcherDataSourceWeakBox.swift; sourceTree = "<group>"; };
+		A4BBEC459248F02E2DEEF8A84A2880F9 /* String+Bounding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Bounding.swift"; path = "Source/Utility/String+Bounding.swift"; sourceTree = "<group>"; };
+		A8511D9F32AC6C8BFDFBABD2AE911F5B /* SegementSlide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegementSlide.modulemap; sourceTree = "<group>"; };
+		B2BE18AB34FB23828CE8CB802D733E64 /* SegementSlideDefaultSwitcherConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideDefaultSwitcherConfig.swift; path = Source/Switcher/SegementSlideDefaultSwitcherConfig.swift; sourceTree = "<group>"; };
+		B5823DF57E5A286F8BF561E074584778 /* SegementSlide-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SegementSlide-Info.plist"; sourceTree = "<group>"; };
+		BF8B2D0C3DF7848EDD362B105EC0F6DD /* ImpressiveNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImpressiveNotifications.debug.xcconfig; sourceTree = "<group>"; };
+		C0B671CD9F1CFD9AD8998F7248E904CC /* SegementSlideViewController+delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+delegate.swift"; path = "Source/General/SegementSlideViewController+delegate.swift"; sourceTree = "<group>"; };
+		CFD8395A1DD9E61DA2B7BE97E2F406FE /* ImpressiveNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImpressiveNotifications-Info.plist"; sourceTree = "<group>"; };
+		D57E6D6576187ADF9C5CA5E5F987C0F6 /* TransparentSlideDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransparentSlideDefaultViewController.swift; path = Source/General/TransparentSlideDefaultViewController.swift; sourceTree = "<group>"; };
+		D7408E2FB65AD692608721B8D42ABA26 /* SegementSlide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegementSlide.debug.xcconfig; sourceTree = "<group>"; };
+		D9E64DC6CE73F1172370C13D360D4734 /* BadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeView.swift; path = Source/Switcher/BadgeView.swift; sourceTree = "<group>"; };
+		DF68AEFB1128AB25F0A3C9720E066F8C /* SegementSlideScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideScrollView.swift; path = Source/General/SegementSlideScrollView.swift; sourceTree = "<group>"; };
+		E1581AB65899ADC126F9C84DB7868166 /* SegementSlideDefaultSwitcherView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideDefaultSwitcherView.swift; path = Source/Switcher/SegementSlideDefaultSwitcherView.swift; sourceTree = "<group>"; };
+		E5C28A57A5B73F3697B0FD7754252978 /* SegementSlideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideViewController.swift; path = Source/General/SegementSlideViewController.swift; sourceTree = "<group>"; };
+		E7E969131557A2F74026EF298F787296 /* INNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INNotificationData.swift; path = ImpressiveNotifications/Sources/Data/INNotificationData.swift; sourceTree = "<group>"; };
+		ECD8B8CF1B0339A91B8C7A67CB7E0D57 /* SegementSlideContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideContentView.swift; path = Source/Content/SegementSlideContentView.swift; sourceTree = "<group>"; };
+		F27F006A1FF99D289F2A4A312A2D3CB1 /* SegementSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegementSlide-dummy.m"; sourceTree = "<group>"; };
+		FB7B798C80FF3F442D4F796642548AD1 /* Pods-NewsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsApp-dummy.m"; sourceTree = "<group>"; };
+		FE558D73F196DD3804A44C9AB58B6B49 /* INNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INNotification.swift; path = ImpressiveNotifications/Sources/INNotification.swift; sourceTree = "<group>"; };
+		FF03A2102ECB63BF170D229761502727 /* ImpressiveNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpressiveNotifications-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A69F65DD926F14D7E56EDA06292AF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207F8418C28DE332B2720D1E6CFDAB85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B4E32E5604F864F71FF69470CE1BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA1EBBB35446B7FC09DB5F199A0390 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3444556F0C79930F737A0DF1B7186F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84A7CC22F109BD1B8D3BD2093CA7AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F63B7ECAC2C2113E357C61A3AB173A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60B5757E36D98F4DF711E244DFC891A0 /* ImpressiveNotifications.modulemap */,
+				685A2ECBE7F5E16599BC382DE005BE3B /* ImpressiveNotifications-dummy.m */,
+				CFD8395A1DD9E61DA2B7BE97E2F406FE /* ImpressiveNotifications-Info.plist */,
+				451C059032DBCF2E87DB4558CBF850B9 /* ImpressiveNotifications-prefix.pch */,
+				FF03A2102ECB63BF170D229761502727 /* ImpressiveNotifications-umbrella.h */,
+				BF8B2D0C3DF7848EDD362B105EC0F6DD /* ImpressiveNotifications.debug.xcconfig */,
+				8EA00A7030281D776C8FDA9402F18A85 /* ImpressiveNotifications.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImpressiveNotifications";
+			sourceTree = "<group>";
+		};
+		30E73F374728308FB50B0D3E1FE1126B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242AA5857F02B7E6FBEB6140CB8A2476 /* ImpressiveNotifications */,
+				39E3E5F872763E10C58E7DEF2B8ED837 /* Pods-NewsApp */,
+				42680C948568347510E3E5881F7FDB51 /* SegementSlide */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479CBF6E2B87CC6B8097D42BC4F7F3B9 /* ImpressiveNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				FE558D73F196DD3804A44C9AB58B6B49 /* INNotification.swift */,
+				E7E969131557A2F74026EF298F787296 /* INNotificationData.swift */,
+				296BAC35060A90D5D61F2D3698D13716 /* INNotifications.swift */,
+				7D9CFE35E4B4F4DF0776C054E7D51514 /* INNotificationStyle.swift */,
+				5F552D81B15B2424C9C2380A8C42280C /* INNotificationType.swift */,
+				1318B47B645DE61908E561630A40ED2D /* String+UIImage.swift */,
+				0F63B7ECAC2C2113E357C61A3AB173A3 /* Support Files */,
+			);
+			name = ImpressiveNotifications;
+			path = ImpressiveNotifications;
+			sourceTree = "<group>";
+		};
+		5322074C52023D660D78D67179D50A7E /* SegementSlide */ = {
+			isa = PBXGroup;
+			children = (
+				D9E64DC6CE73F1172370C13D360D4734 /* BadgeView.swift */,
+				ECD8B8CF1B0339A91B8C7A67CB7E0D57 /* SegementSlideContentView.swift */,
+				B2BE18AB34FB23828CE8CB802D733E64 /* SegementSlideDefaultSwitcherConfig.swift */,
+				E1581AB65899ADC126F9C84DB7868166 /* SegementSlideDefaultSwitcherView.swift */,
+				7B474C151A8E4E19158DE59E3C60188A /* SegementSlideDefaultSwitcherView+ex.swift */,
+				00194E85AED0673F9D28A10575985190 /* SegementSlideDefaultViewController.swift */,
+				8D4A907F2160301A438A39E470FADE39 /* SegementSlideHeaderView.swift */,
+				DF68AEFB1128AB25F0A3C9720E066F8C /* SegementSlideScrollView.swift */,
+				A317FEF0E7ADA968A0F84EEDBAC95743 /* SegementSlideSwitcherDataSourceWeakBox.swift */,
+				9E6F66859D402E69B9D1BE9C8F1119A8 /* SegementSlideSwitcherDelegate.swift */,
+				E5C28A57A5B73F3697B0FD7754252978 /* SegementSlideViewController.swift */,
+				C0B671CD9F1CFD9AD8998F7248E904CC /* SegementSlideViewController+delegate.swift */,
+				7E4A2E5F92A0DF512D3A4969F75033F1 /* SegementSlideViewController+ex.swift */,
+				44BD17422ECD95175CBC10C2481BFE03 /* SegementSlideViewController+scroll.swift */,
+				365F4BC517E747C245EE377D5E78A46F /* SegementSlideViewController+setup.swift */,
+				A4BBEC459248F02E2DEEF8A84A2880F9 /* String+Bounding.swift */,
+				D57E6D6576187ADF9C5CA5E5F987C0F6 /* TransparentSlideDefaultViewController.swift */,
+				1F28519CAF6566E9083AA4CEF88CB99D /* TransparentSlideViewController.swift */,
+				3E2B567E9283755DC518622E3E78BB7C /* UIScrollView+Scroll.swift */,
+				1460738652F074EA4822EDB27C9B9A5C /* UIView+Constraint.swift */,
+				9D3B51FF80DD8C2CD008C1582F5D8281 /* Support Files */,
+			);
+			name = SegementSlide;
+			path = SegementSlide;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6982D13F7BA4A66A9A46A2464E6A150A /* Pods-NewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F71CBE817EB9BDC070E525D561733 /* Pods-NewsApp.modulemap */,
+				04EA877327FEBA95BDF556DCAAAC671D /* Pods-NewsApp-acknowledgements.markdown */,
+				9861FCDD0906646822099967C5B9B2A2 /* Pods-NewsApp-acknowledgements.plist */,
+				FB7B798C80FF3F442D4F796642548AD1 /* Pods-NewsApp-dummy.m */,
+				5232D1D484E3BEA07A2743C4B8D23FEE /* Pods-NewsApp-frameworks.sh */,
+				604A75D98A0DE48F98C49604DEC29C5A /* Pods-NewsApp-Info.plist */,
+				0D33812B0F283BE0FF9B36290FE29871 /* Pods-NewsApp-umbrella.h */,
+				3733FD3D38C5579187385A7B37DC8060 /* Pods-NewsApp.debug.xcconfig */,
+				99F5AA93D77721B3A2B92337F97996BA /* Pods-NewsApp.release.xcconfig */,
+			);
+			name = "Pods-NewsApp";
+			path = "Target Support Files/Pods-NewsApp";
+			sourceTree = "<group>";
+		};
+		798A5CFC0E53A040886F808879B92253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				479CBF6E2B87CC6B8097D42BC4F7F3B9 /* ImpressiveNotifications */,
+				5322074C52023D660D78D67179D50A7E /* SegementSlide */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D3B51FF80DD8C2CD008C1582F5D8281 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8511D9F32AC6C8BFDFBABD2AE911F5B /* SegementSlide.modulemap */,
+				F27F006A1FF99D289F2A4A312A2D3CB1 /* SegementSlide-dummy.m */,
+				B5823DF57E5A286F8BF561E074584778 /* SegementSlide-Info.plist */,
+				35309B9BAF9702F55FA78A02B563EFEE /* SegementSlide-prefix.pch */,
+				833F95FB61F18A67EF353D1244F9A6E0 /* SegementSlide-umbrella.h */,
+				D7408E2FB65AD692608721B8D42ABA26 /* SegementSlide.debug.xcconfig */,
+				0204678699D9E23909197E1B0404CB92 /* SegementSlide.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SegementSlide";
+			sourceTree = "<group>";
+		};
+		BB310BEF104DD7114BF415770F3E368D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6982D13F7BA4A66A9A46A2464E6A150A /* Pods-NewsApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				798A5CFC0E53A040886F808879B92253 /* Pods */,
+				30E73F374728308FB50B0D3E1FE1126B /* Products */,
+				BB310BEF104DD7114BF415770F3E368D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2728E7F299EB244CFDE534BC5D0ECD1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DCD1DCCFFBDF87DC0C91A756AF0779 /* Pods-NewsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD501848029E63C29EE08BA27FC1FC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E47849E5F46CB2C6A5CC99CA50A82D0 /* SegementSlide-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43AD2DB0EFA3FF32EE5A17CEDE191ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32DBB1612B2BE316710AAB1279A3F78 /* ImpressiveNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC647A3B7996442E34B15008EEB0E06 /* Build configuration list for PBXNativeTarget "SegementSlide" */;
+			buildPhases = (
+				8CD501848029E63C29EE08BA27FC1FC1 /* Headers */,
+				AAAE81DE59DA98E51D008609327D136F /* Sources */,
+				26B4E32E5604F864F71FF69470CE1BCD /* Frameworks */,
+				14CE41630CEE640854851F09AD1A27A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegementSlide;
+			productName = SegementSlide;
+			productReference = 42680C948568347510E3E5881F7FDB51 /* SegementSlide */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B14A80A672BEFB65A571F51A375D8D1 /* Pods-NewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D48104E606D1E8E3B24DF3895639B1C /* Build configuration list for PBXNativeTarget "Pods-NewsApp" */;
+			buildPhases = (
+				2728E7F299EB244CFDE534BC5D0ECD1B /* Headers */,
+				FFCD014D696ED797236118709E409B4F /* Sources */,
+				1A69F65DD926F14D7E56EDA06292AF0B /* Frameworks */,
+				FCA7149AC039F1B1AB052D9B7A5906F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBE70C52C7993904CD6D1725D9147FD /* PBXTargetDependency */,
+				21DB6D205C35485AAB1C40DEAC21650F /* PBXTargetDependency */,
+			);
+			name = "Pods-NewsApp";
+			productName = Pods_NewsApp;
+			productReference = 39E3E5F872763E10C58E7DEF2B8ED837 /* Pods-NewsApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		E625008C8D4FCD12508D6C75D020655D /* ImpressiveNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE77EC7DFE1610A7591AF6408EBCD26 /* Build configuration list for PBXNativeTarget "ImpressiveNotifications" */;
+			buildPhases = (
+				A43AD2DB0EFA3FF32EE5A17CEDE191ED /* Headers */,
+				32479C0790CDF71219F0220D442D62B5 /* Sources */,
+				3444556F0C79930F737A0DF1B7186F58 /* Frameworks */,
+				20F9C1F8A0AB750D526EA557DBF323F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImpressiveNotifications;
+			productName = ImpressiveNotifications;
+			productReference = 242AA5857F02B7E6FBEB6140CB8A2476 /* ImpressiveNotifications */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 30E73F374728308FB50B0D3E1FE1126B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E625008C8D4FCD12508D6C75D020655D /* ImpressiveNotifications */,
+				6B14A80A672BEFB65A571F51A375D8D1 /* Pods-NewsApp */,
+				055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CE41630CEE640854851F09AD1A27A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F9C1F8A0AB750D526EA557DBF323F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7149AC039F1B1AB052D9B7A5906F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32479C0790CDF71219F0220D442D62B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3304FDE784D90E38A8C5E6D2DD732F4 /* ImpressiveNotifications-dummy.m in Sources */,
+				9C8BB72842C1C39238666CDE01EBE2CC /* INNotification.swift in Sources */,
+				386A7439D361CE2B8338A4E0EEE1EB88 /* INNotificationData.swift in Sources */,
+				11831E0FD1E67D212F10A2BA1E88624C /* INNotifications.swift in Sources */,
+				413BB8AF63A692EC4146ADE4E0CFC3A7 /* INNotificationStyle.swift in Sources */,
+				FCFB46F7A762C450D7D1CB0954E559A3 /* INNotificationType.swift in Sources */,
+				295209442A59E28CAD9C23B612FA14F7 /* String+UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAE81DE59DA98E51D008609327D136F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30784C09385FFF8A3F34F539B9F813A8 /* BadgeView.swift in Sources */,
+				F18E4023DC09162EBBF943C81863B4E2 /* SegementSlide-dummy.m in Sources */,
+				EFA808AA5CFCB195DEF0B2A0EC82BC74 /* SegementSlideContentView.swift in Sources */,
+				4DBD6C0990CCEBAFAB066A5B9F74D201 /* SegementSlideDefaultSwitcherConfig.swift in Sources */,
+				613CC8B06947B76566ECBB786E2A75DA /* SegementSlideDefaultSwitcherView.swift in Sources */,
+				16A312CFA0F7C5781F288074BC7572EE /* SegementSlideDefaultSwitcherView+ex.swift in Sources */,
+				71B06FB9E6073CE8BE1DAC6B11A74357 /* SegementSlideDefaultViewController.swift in Sources */,
+				8653EBBE88EA86864BA0465F65A889A7 /* SegementSlideHeaderView.swift in Sources */,
+				987D66389A8ABCD7F9E999734465CC0A /* SegementSlideScrollView.swift in Sources */,
+				3B6262A9295A37E494521C27A81CADCC /* SegementSlideSwitcherDataSourceWeakBox.swift in Sources */,
+				9F0ED2B9B775A07FB7E162717EAD43EA /* SegementSlideSwitcherDelegate.swift in Sources */,
+				80EAC8AABE94270626D14A903469CC01 /* SegementSlideViewController.swift in Sources */,
+				E580FEC0AF5869D263EEAED832004AB4 /* SegementSlideViewController+delegate.swift in Sources */,
+				95125474FB3157AE0D27AE468B28A156 /* SegementSlideViewController+ex.swift in Sources */,
+				DCA002208E496B765730EBA60032B8D4 /* SegementSlideViewController+scroll.swift in Sources */,
+				B245B516954F39229872482D4C7D8531 /* SegementSlideViewController+setup.swift in Sources */,
+				724FD2BD4FF5CCD358DF66D937386ADC /* String+Bounding.swift in Sources */,
+				192912BF03EA06AAC7338A97CEFD8EDB /* TransparentSlideDefaultViewController.swift in Sources */,
+				955F079DDC654BB90F0A534393782A76 /* TransparentSlideViewController.swift in Sources */,
+				338F2FE8B448A8396073D70850529D0E /* UIScrollView+Scroll.swift in Sources */,
+				174D50340C4AEAB1316276DA82E9E5E2 /* UIView+Constraint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD014D696ED797236118709E409B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877E4E0A48187007CD8B97975513B902 /* Pods-NewsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DB6D205C35485AAB1C40DEAC21650F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegementSlide;
+			target = 055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */;
+			targetProxy = B1189EF58F1DEF9374020D3CA44CF1F2 /* PBXContainerItemProxy */;
+		};
+		FBBE70C52C7993904CD6D1725D9147FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImpressiveNotifications;
+			target = E625008C8D4FCD12508D6C75D020655D /* ImpressiveNotifications */;
+			targetProxy = 7F859F746ACC15CDB65401D15AD3049D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36CE7DBB1BED668637A8B7CCB64AA473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA00A7030281D776C8FDA9402F18A85 /* ImpressiveNotifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications.modulemap";
+				PRODUCT_MODULE_NAME = ImpressiveNotifications;
+				PRODUCT_NAME = ImpressiveNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DF94FF9C91D4C80FF173522FF4C45F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F5AA93D77721B3A2B92337F97996BA /* Pods-NewsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewsApp/Pods-NewsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewsApp/Pods-NewsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95807EC25F2976B6360C645895600131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3733FD3D38C5579187385A7B37DC8060 /* Pods-NewsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewsApp/Pods-NewsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewsApp/Pods-NewsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA08E5CA97E387C9E30FFA9F41EBE33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0204678699D9E23909197E1B0404CB92 /* SegementSlide.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegementSlide/SegementSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegementSlide/SegementSlide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SegementSlide/SegementSlide.modulemap";
+				PRODUCT_MODULE_NAME = SegementSlide;
+				PRODUCT_NAME = SegementSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C59FB31CE7C40F43058792F58ABD5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8B2D0C3DF7848EDD362B105EC0F6DD /* ImpressiveNotifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImpressiveNotifications/ImpressiveNotifications.modulemap";
+				PRODUCT_MODULE_NAME = ImpressiveNotifications;
+				PRODUCT_NAME = ImpressiveNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E634DC057EAE209D3C9A03EFA0DFCFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7408E2FB65AD692608721B8D42ABA26 /* SegementSlide.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegementSlide/SegementSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegementSlide/SegementSlide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SegementSlide/SegementSlide.modulemap";
+				PRODUCT_MODULE_NAME = SegementSlide;
+				PRODUCT_NAME = SegementSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D48104E606D1E8E3B24DF3895639B1C /* Build configuration list for PBXNativeTarget "Pods-NewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95807EC25F2976B6360C645895600131 /* Debug */,
+				3DF94FF9C91D4C80FF173522FF4C45F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC647A3B7996442E34B15008EEB0E06 /* Build configuration list for PBXNativeTarget "SegementSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E634DC057EAE209D3C9A03EFA0DFCFF3 /* Debug */,
+				AA08E5CA97E387C9E30FFA9F41EBE33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE77EC7DFE1610A7591AF6408EBCD26 /* Build configuration list for PBXNativeTarget "ImpressiveNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59FB31CE7C40F43058792F58ABD5EEA /* Debug */,
+				36CE7DBB1BED668637A8B7CCB64AA473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
